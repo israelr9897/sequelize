@@ -6,7 +6,7 @@ const PORT = process.env.PORT;
 
 const app = express();
 
-configRout(app);
+// configRout(app);
 
 app.listen(PORT, () => {
   console.log("server is ronning on port:" + PORT);
