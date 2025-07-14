@@ -1,4 +1,3 @@
-import sequelize from "./db.js";
 import UserActivity from "./moddles/UserActivity.js";
 
 try {

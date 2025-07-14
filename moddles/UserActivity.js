@@ -1,6 +1,7 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../db.js";
 
+
 const UserActivity = sequelize.define(
   "UserActivity",
   {
