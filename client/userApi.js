@@ -28,4 +28,4 @@ function createUserObj() {
 }
 
 // createUser();
- getAllUsers()
+getAllUsers();

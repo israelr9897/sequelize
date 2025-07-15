@@ -8,15 +8,12 @@ async function createUser(name, email) {
   try {
     User.create({
       name: name,
-      email: email
-    })
+      email: email,
+    });
     console.log("user added");
   } catch (err) {
     console.log("create user error massege: ", err);
   }
 }
 
-export {
-    getAllUsers, 
-    createUser
-}
+export { getAllUsers, createUser };
